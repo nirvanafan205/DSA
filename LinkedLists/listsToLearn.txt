@@ -1,0 +1,17 @@
+Doubly Linked List
+	insertion
+	deletion
+	backward traversal
+
+Circular Linked List
+	insertion
+	deletion
+	traversal
+
+Skip List
+
+Self-Adjusting Linked List
+
+XOR Linked List
+
+

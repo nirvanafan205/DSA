@@ -1,0 +1,17 @@
+Binary Search Tree 
+
+Balanced Binary Search Tree
+	AVL trees
+	Red-Black trees
+	B-trees
+
+Self-Balancing Binary search trees
+	splay trees
+	Treaps
+
+Binary Heap
+	max heap
+	min heap
+
+Trie ( Prefix Tree)
+	
