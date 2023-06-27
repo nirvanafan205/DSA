@@ -1,4 +1,5 @@
 #include <iostream>
+#include <gtest/gtest.h>
 
 using namespace std; 
 
@@ -18,12 +19,11 @@ void bubbleSort(int arr[], int size)
 		}
 	}
 }
-
+/* 
 int main()
 {
 	int arr[] = { 5, 2, 8, 12, 1, 6 };
 	int size = sizeof(arr) / sizeof(arr[0]);
-
 	cout << "Original Array: ";
 
 	// print array
@@ -34,7 +34,6 @@ int main()
 
 	// call function to sort array
 	bubbleSort(arr, size);
-
 	// print sorted array
 	cout << "\nSorted array: ";
 
@@ -42,14 +41,10 @@ int main()
 	{
 		cout << arr[i] << " ";
 	}
-
-	/*
 		Bubble Sort has a worst-case and average0case time complexity of O(n^2)
 		where "n" is the number of elements in the array to be sorted.
 		The time it takes to sort the array increases quadratically as 
 		the number of elements increases.
-
 		Useful for small datasets and to understand sorting concepts
-
-	*/ 
 }
+*/
