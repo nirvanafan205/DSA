@@ -86,6 +86,27 @@ void insertAtEnd(Node** head, int data)
 
 	// insert the new node after the last node
 	current->next = newNode;
+<<<<<<< HEAD
+=======
+}
+
+// inserting node data after a specific node in the list
+void insertAfter(Node* prevNode, int data)
+{
+	if(prevNode == nullptr)
+	{
+		// nothing happens if node isn't found
+		
+		cout << "Previous node can't be nullptr." << endl;
+
+		return;
+	}
+
+	Node* newNode = new Node;
+	newNode->data = data;
+	newNode->next = prevNode->next;
+	prevNode->next = newNode;
+>>>>>>> 117861186a675e74407e713834ea1e0e8b5e5c25
 }
 
 // inserting node data after a specific node in the list
