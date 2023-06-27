@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/bubble_sort_test.dir/bubble_sort_test.cpp.o -o bubble_sort_test  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 
